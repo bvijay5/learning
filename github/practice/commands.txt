@@ -1,0 +1,50 @@
+CLONE 
+git clone <link>
+
+STATUS - display status of clone
+git status
+
+ls -> use this display files in directory
+ls -a -> to view hidden files
+
+
+To update the Repo
+git add <file_name>
+git add .        ->to update all files
+
+COMMIT
+git commit -m "some message"
+
+PUSH 
+git push origin main
+
+PULL
+git pull origin main
+
+
+BRANCH
+git branch      ->to check branch
+
+TO RENAME BRANCH
+git branch -M main
+
+TO NAVIGATE
+git checkout <branch name>
+
+TO CREATE NEW BRANCH
+git checkout -b <new Branch name>
+
+TO DELETE BRANCH
+git branch -d <branch name>
+
+
+UNDOING CHANGES     -> for uncmommited files
+git reset <file name>
+
+
+TO UNDO COMMIT
+git reset HEAD~1
+
+to go back to particular commit
+git reset <commit hash>
+git reset --hard <commit hash>
