@@ -3,9 +3,10 @@ accurace = correct_pred/total_pred
 precision = 
 recall = 
 F1 score = smart balance between precision and recall
+r^2 Score = closer to 1 is better
 '''
 
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, r2_score
 
 # True Answers (what acturally happend/ correct answers)
 y_true = [1,0,1,1,0,1,0]
