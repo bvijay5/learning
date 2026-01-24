@@ -1,7 +1,9 @@
 '''
-standard scalar -> normal stanadard variate formula
+standard scalar -> normal stanadard variate formula [Z = (X-mean)/varience]
 
 min-max -> scaled = (X - Xmin)/(Xmax - Xmin)
+
+Always Scale only X, no need to scale Y
 '''
 
 
