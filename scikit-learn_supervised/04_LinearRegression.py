@@ -21,3 +21,10 @@ model.fit(X,y)
 hrs = float(input("No. hrs studies: "))
 predicted_marks = model.predict([[hrs]])[0]
 print(predicted_marks)
+
+
+
+'''
+print(model.coef_)          -> m
+print(model.intercept_)     -> c
+'''
