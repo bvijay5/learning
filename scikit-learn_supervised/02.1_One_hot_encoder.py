@@ -12,3 +12,10 @@ d = {
 
 df = pd.DataFrame(d)
 
+ohe = OneHotEncoder(handle_unknown="ignore", sparse_output=False).set_output(transform="pandas")
+
+encoded_city = ohe.fit_transform(df[["city"]])
+
+df_encoded = pd.concat([df, encoded_city], axis = 1).drop(columns=["city"])
+
+print(df_encoded)
