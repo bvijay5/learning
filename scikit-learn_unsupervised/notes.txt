@@ -1,2 +1,21 @@
 deciding no of clusters needed in kmeans
 
+
+
+
+FINAL
+
+1. Define the problem
+2. Load & inspect data        ← VISUALIZE
+3. Clean the data             ← VISUALIZE
+4. Handle categorical data
+5. Feature selection          ← VISUALIZE
+6. Feature scaling            ← VISUALIZE
+7. Split the data
+8. Choose the model
+9. Train the model
+10. Make predictions
+11. Evaluate the model        ← VISUALIZE
+12. Check overfitting         ← VISUALIZE
+13. Improve the model
+14. Save the model

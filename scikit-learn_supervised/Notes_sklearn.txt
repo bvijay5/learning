@@ -1,3 +1,6 @@
 accuracy = (correct predictions/total predictions)*100
 Precision = (True positives/total predictive posotoves)
 Recall = (true positives/ total actual posotives)
+
+Learn this
+Gradient Descent and Cost Function
