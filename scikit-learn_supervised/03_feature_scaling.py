@@ -25,7 +25,7 @@ standard_scaled = standard_scalar.fit_transform(df)
 print(pd.DataFrame(standard_scaled, columns=["time", "test_score"]))
 print("\n")
 
-min_max = MinMaxScaler()
+min_max = MinMaxScaler(feature_range = (0,1))
 min_max_scaled = min_max.fit_transform(df)
 print(pd.DataFrame(min_max_scaled, columns=["time", "test_score"]))
 print("\n")
